@@ -2,7 +2,6 @@
 using System.Linq;
 
 /// <summary>
-/// Summary description for Anagram
 ///  Program description:
 ///  Function that receive two strings and returns true or false if the word is an anagram.
 ///  * An anagram consists of forming a word by rearrangin all the letters of an initial word.
@@ -18,7 +17,7 @@ public class Anagram
         //If both strings are equals, then they are not anagrams
         if (str1.Equals(str2, StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("No son anagramas");
+            Console.WriteLine("Words are not anagrams");
             return false;
         }
             
@@ -29,7 +28,7 @@ public class Anagram
         //Return if both string are equals
         bool isAnagram = str1Order == str2Order;
 
-        Console.WriteLine("¿Son anagramas? " + isAnagram);
+        Console.WriteLine("Are the words anagrams? " + isAnagram);
         return isAnagram;
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System;
 
 /// <summary>
-/// Summary description for FizzBuzz
 ///  Program description:
 ///  Program that displays by console numbers from 1 to 100 (both included), substituting the following:
 ///  * Multiples of 3 for the word "fizz"

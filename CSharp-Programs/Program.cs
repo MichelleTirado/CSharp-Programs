@@ -14,11 +14,15 @@ namespace CSharp_Programs
             //Anagram.Run("Amor", "roma");
 
             //Fibonacci Sequence
-            Console.WriteLine("Fibonacci Sequence:");
-            for (int i = 0; i < 50; i++)
-            {
-                Console.Write($"{Fibonacci.FibonacciSequence(i)}" + ",");
-            }
+            //Console.WriteLine("Fibonacci Sequence:");
+            //for (int i = 0; i < 50; i++)
+            //{
+            //    Console.Write($"{Fibonacci.FibonacciSequence(i)}" + ",");
+            //}
+
+            //Prime Number
+            bool result = EvenNumber.Run(3);
+            Console.WriteLine("Is even number? " + result);
         }
     }
 }

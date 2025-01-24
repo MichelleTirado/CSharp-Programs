@@ -46,6 +46,7 @@
     <Compile Include="Anagram\Anagram.cs" />
     <Compile Include="Fibonacci\Fibonacci.cs" />
     <Compile Include="FizzBuzz\FizzBuzz.cs" />
+    <Compile Include="EvenNumber\EvenNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

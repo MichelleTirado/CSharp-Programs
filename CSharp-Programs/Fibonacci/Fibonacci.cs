@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 
 /// <summary>
-/// Summary description for Anagram
 ///  Program description:
 ///  Write a program to print 50 first number of fibonacci sequence (starts on 0).             
 /// </summary>
