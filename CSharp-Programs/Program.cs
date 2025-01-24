@@ -10,7 +10,8 @@ namespace CSharp_Programs
     {
         static void Main(string[] args)
         {
-            FizzBuzz.Run();
+            //FizzBuzz.Run();
+            Anagram.Run("Amor", "roma");
         }
     }
 }
