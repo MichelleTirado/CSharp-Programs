@@ -11,7 +11,14 @@ namespace CSharp_Programs
         static void Main(string[] args)
         {
             //FizzBuzz.Run();
-            Anagram.Run("Amor", "roma");
+            //Anagram.Run("Amor", "roma");
+
+            //Fibonacci Sequence
+            Console.WriteLine("Fibonacci Sequence:");
+            for (int i = 0; i < 50; i++)
+            {
+                Console.Write($"{Fibonacci.FibonacciSequence(i)}" + ",");
+            }
         }
     }
 }
